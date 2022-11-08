@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 73%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    padding: 0 25px;
+    font-size: 13px;
+}
+
+.navbar a {
+    color: grey;
+}
+
+.navbar li:last-child button {
+    margin-left: 120px;
+}
+
+.navbar  button {
+    padding: 5px 10px;
+    border: 1px solid #03a87c;
+    background-color: white;
+    color: #03a87c;
+    font-size: 12px;
+    border-radius: 3px;
+
+}
+.navbar  button:hover {
+    background-color: #03a87c;
+    color: white;
+    border-radius: 3px;
+
+}
+
+span {
+    background-color: #7832e2;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.father {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.child {
+    background-color: rgb(171, 214, 239);
+    padding: 60px;
+    height: 400px;
+}
+
+.child-img {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+}
+
+.child h1 {
+    font-size: 25px;
+}
+
+.child p {
+    font-size: 15px;
+}
+
+.child button {
+    padding: 6px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0 15px;
+}
+
+
+.father-box {
+margin-top: 30px;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+
+.back-img {
+    background-image: url(../images/8-rasm.jpg);
+    height: 170px;
+    background-size: cover;
+}
+
+.child-box h4 {
+color: #555;
+}
+
+.child-box p {
+    color: #999;
+}
+
+.child-go {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 20px;
+}
+
+.child-img1 img {
+    width: 140%;
+}
+
+.child-text {
+    margin-left:60px;
+}
+
+.child-text h5 {
+    color: #777;
+}
+
+.books {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.asd1 img {
+ width: 100%;
+}
+
+.book1{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.asd h2 {
+    font-size: 30px ;
+}
+
+.on h1 {
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.on1{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+
+
